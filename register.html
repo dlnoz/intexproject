@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <style type="text/tailwindcss"></style>
-     <link rel="stylesheet" href="./css/main.css">
-    <title>Войти</title>
+    <title>Регистрация</title>
 </head>
 <body class="login-body">
-
-    <div class=" w-[621px] p-[15px] bg-white text-center rounded-[25px]">
-        <img class="pt-[35px] pb-[17px] mx-auto" src="./images/intex-logo.svg" alt="logo photo" width="400" height="65">
-        <p class="text-[23px] w-[70%] mx-auto text-[rgba(163,163,163,1)] font-semibold mb-[45px]"> Введите новое имя и новый пароль для входа в систему.</p>
-        <form class="register-form flex flex-col items-center" autocomplete="off">
-            <input required class="w-[340px] mb-[10px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none  rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="text" name="firstName" placeholder="Имя">
-            <input required class="w-[340px] mb-[10px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none  rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="text" name="lastName" placeholder="Фамилия">
-            <input required class="w-[340px]  mb-[10px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="text" name="username" placeholder="Логин">
-            <input required class="w-[340px]  mb-[10px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="password" name="password" placeholder="Пароль">
-            <button class="w-[237px] bg-[#3F8C8E] text-white mt-[25px] font-bold text-[23px] duration-300 cursor-pointer  hover:opacity-[70%]  pt-[9px] pb-[7px] rounded-[10px]  ">Регистрация</button>
-        </form>
     
+    <div class="w-[621px] p-[15px] bg-white text-center rounded-[25px]">
+        <img class="pt-[35px] pb-[17px] mx-auto" src="./images/logo.svg" alt="Site Logo" width="400" height="65">
+        <p class="text-[23px] w-[70%] mx-auto text-[rgba(163,163,163,1)] font-semibold mb-[45px]">Введите новое имя пользователя и пароль для входа в систему.</p>
+        <form autocomplete="off" class="register-form flex flex-col items-center">
+             <input required class="w-[340px] mb-[8px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none  rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="text" name="firstName" placeholder="Имя">
+            <input required class="w-[340px] mb-[8px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none  rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="text" name="lastName" placeholder="Фамилия">
+            <input required class="w-[340px]  mb-[8px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="text" name="username" placeholder="Логин">
+            <input required class="w-[340px]  mb-[8px] shadow-md shadow-[rgba(230,230,230,1)] focus:shadow-[rgba(0,147,152,1)] outline-none rounded-[17px] pt-[13px] pb-[8px] text-center font-bold text-[23px] text-[rgba(163,163,163, 1)]" type="password" name="password" placeholder="Пароль">
+            <button class="w-[237px] bg-[#3F8C8E] text-white mt-[15px] font-bold text-[23px] duration-300 cursor-pointer  hover:opacity-[70%]  pt-[9px] pb-[7px] rounded-[10px] " type="submit">Регистрация</button>
+        </form>
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="./js/password-list.js"></script>
-    <script src="./js/register.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="./js/password-list.js"></script>
+     <script src="./js/register.js"></script>
 </body>
 </html>
